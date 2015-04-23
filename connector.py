@@ -7,7 +7,7 @@ import argparse
 
 class Connector():
     def __init__(self, settingsPath):
-        self.defaultHeadline = "Connector 1.0 - tunnel mode (press t): "
+        self.defaultHeadline = "Connector 1.0 - (Keys: q = quit, t = switch tunnel mode) - tunnel mode: "
         self.tunnelMode = False
         settings = self.loadSettings(settingsPath)
         self.tunnelServer = settings['tunnelServer']
