@@ -1,0 +1,5 @@
+terminal: "terminal" #terminal or iterm
+tunnelServer: "[USER]@HOST"
+servers:
+    Server 1: "[USER]@HOST"
+    Server 2: "[USER]@HOST"
